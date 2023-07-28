@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+   background-color: rgba(244, 247, 250, 0.616);
+   background-image: url(image8.jpeg);
+   background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.container{
+    box-shadow: 0 2px 4px 1px rgb(179, 169, 169);
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;  
+    flex-direction: column;  
+    
+    background-image: url(image7.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container p{
+    color: rgb(1, 10, 9);
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.inputContainer{
+    margin:5px;
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+    font-size: medium;
+    font-weight: bold;
+}
+.inputContainer label{
+    font-size: larger;
+}
+.inputContainer input{
+    border:none;
+    height: 30px;
+    width: 300px;
+    outline: none;
+    box-shadow: 0.1px 1px 2px 1px rgb(150, 145, 145);
+    padding:4px;
+    font-size: large;
+    border-radius: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
